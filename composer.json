@@ -15,5 +15,12 @@
         "psr-4": {
             "Sakshikbc\\Contact\\" : "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sakshikbc\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
